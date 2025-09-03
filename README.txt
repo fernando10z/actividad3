@@ -1,5 +1,11 @@
 ﻿SEGO - E-commerce de Seguridad Electrónica (Cliente/Servidor estilo Sesión 15) - Con módulo de Sockets + Logística + Pago QR (simulado)
 
+GRUPO:
+   FERNANDO JOSE CARBAJAL CARBAJAK
+   Manuel Alonso López Rodríguez
+   Kevin Pareja Mamani
+   Flores Huamani anita maritza
+
 Contenido:
 - sego-server-s15/: API + Socket.IO + MongoDB
 - sego-client-s15/: Cliente estático con HTML/JS + Socket.IO

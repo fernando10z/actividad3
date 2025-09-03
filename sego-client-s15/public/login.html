@@ -1,0 +1,33 @@
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ingresar | SEGO</title><link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head><body>
+<header><h1><a href="/">SEGO</a></h1></header>
+<main>
+  <h2>Ingresar</h2>
+  <form id="f">
+    <input id="nombre" placeholder="Nombre (solo para registro)"><br>
+    <input id="email" placeholder="Email" value="cliente@sego.test"><br>
+    <input id="password" type="password" placeholder="Password" value="Cliente123!"><br>
+    <button>Entrar</button>
+    <button type="button" id="registrar">Registrar</button>
+  </form>
+</main>
+<script type="module">
+  import { fetchJSON, apiBase, setToken } from '/js/api.js';
+  import { matricularSiLogin } from '/js/socket.js';
+  document.getElementById('f').addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    const email=document.getElementById('email').value, password=document.getElementById('password').value;
+    const res=await fetchJSON(`${apiBase}/seguridad/login`,{ method:'POST', body:{ email,password } });
+    setToken(res.token); matricularSiLogin(); location.href='/';
+  });
+  document.getElementById('registrar').addEventListener('click', async ()=>{
+    const nombre=document.getElementById('nombre').value||'Cliente';
+    const email=document.getElementById('email').value, password=document.getElementById('password').value;
+    const res=await fetchJSON(`${apiBase}/seguridad/registrar`,{ method:'POST', body:{ nombre,email,password } });
+    setToken(res.token); matricularSiLogin(); location.href='/';
+  });
+</script>
+</body></html>

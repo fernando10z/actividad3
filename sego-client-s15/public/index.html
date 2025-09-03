@@ -1,0 +1,40 @@
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEGO | Catálogo</title><link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head><body>
+<header><h1>SEGO</h1><nav><a href="/">Catálogo</a><a href="/carrito.html">Carrito</a><a href="/notificaciones.html">Notificaciones</a><a href="/logistica.html">Logística</a><a href="/login.html">Ingresar</a></nav></header>
+<main>
+  <div id="filters">
+    <select id="category"></select>
+    <input id="search" placeholder="Buscar (CCTV, biometría...)">
+    <button id="btnSearch">Buscar</button>
+  </div>
+  <section id="grid" class="grid"></section>
+</main>
+<footer><small>© SEGO 2025</small></footer>
+<script type="module">
+  import { apiBase, fetchJSON, addToCart } from '/js/api.js';
+  import { matricularSiLogin } from '/js/socket.js';
+  matricularSiLogin();
+  const sel=document.getElementById('category'), grid=document.getElementById('grid'), s=document.getElementById('search'), btn=document.getElementById('btnSearch');
+  async function cats(){ const prods = await fetchJSON(`${apiBase}/producto`); 
+    const uniq = {}; prods.forEach(p=>{ if(p.categoria?.slug) uniq[p.categoria.slug]=p.categoria.nombre; });
+    sel.innerHTML='<option value="">Todas</option>'+Object.entries(uniq).map(([slug,n])=>`<option value="${slug}">${n}</option>`).join('');
+  }
+  async function load(){
+    const qs = new URLSearchParams(); if(sel.value) qs.set('cat', sel.value); if(s.value) qs.set('q', s.value);
+    const items = await fetchJSON(`${apiBase}/producto?`+qs.toString());
+    grid.innerHTML = items.map(p=>`
+      <article class="card">
+        <h3>${p.nombre}</h3>
+        <p class="price">S/ ${p.precio}</p>
+        <p>${p.categoria?.nombre||''}</p>
+        <button data-id="${p._id}">Agregar</button>
+      </article>`).join('');
+    grid.querySelectorAll('button').forEach(b=> b.addEventListener('click', async()=>{ await addToCart(b.dataset.id,1); alert('Agregado'); }));
+  }
+  sel.addEventListener('change', load); btn.addEventListener('click', load);
+  await cats(); await load();
+</script>
+</body></html>

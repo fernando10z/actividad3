@@ -1,0 +1,174 @@
+{
+  "info": {
+    "name": "SEGO E-commerce Realtime",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "sego-ecommerce-realtime"
+  },
+  "item": [
+    {
+      "name": "Registro Cliente",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:4002/api/v1/seguridad/registro",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4002",
+          "path": [
+            "api",
+            "v1",
+            "seguridad",
+            "registro"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"cliente1@sego.test\",\n  \"password\": \"Cliente123!\",\n  \"rol\": \"cliente\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Login Cliente",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:4002/api/v1/seguridad/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4002",
+          "path": [
+            "api",
+            "v1",
+            "seguridad",
+            "login"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"cliente1@sego.test\",\n  \"password\": \"Cliente123!\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Crear Pedido",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token_cliente}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:4002/api/v1/orden",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4002",
+          "path": [
+            "api",
+            "v1",
+            "orden"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"productos\": [\n    {\n      \"productoId\": \"64e6f3c...\",\n      \"cantidad\": 2\n    },\n    {\n      \"productoId\": \"64e6f3d...\",\n      \"cantidad\": 1\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "Marcar Pedido como Le\u00eddo (Log\u00edstica)",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token_admin}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:4002/api/v1/orden/ORD-00001/leido",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4002",
+          "path": [
+            "api",
+            "v1",
+            "orden",
+            "ORD-00001",
+            "leido"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pagar Pedido",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token_cliente}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:4002/api/v1/orden/ORD-00001/pagar",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4002",
+          "path": [
+            "api",
+            "v1",
+            "orden",
+            "ORD-00001",
+            "pagar"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "token_cliente",
+      "value": ""
+    },
+    {
+      "key": "token_admin",
+      "value": ""
+    }
+  ]
+}

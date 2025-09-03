@@ -1,0 +1,1696 @@
+[{
+  "_id": {
+    "$oid": "68af87e2377a733a7f2f400a"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "Pedido 23 generado",
+  "lectura": false,
+  "fecha_registro": "2025-05-16T06:44:22.074+00:00",
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af888d377a733a7f2f400b"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "Pedido 40 generado",
+  "lectura": false,
+  "fecha_registro": "2025-05-16T06:44:22.074+00:00",
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af889f377a733a7f2f400c"
+  },
+  "email": "cgonzales11@gmail.com",
+  "mensaje": "Pedido 50 generado",
+  "lectura": false,
+  "fecha_registro": "2025-05-16T06:44:22.074+00:00",
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af9114e1b57e23a27fc013"
+  },
+  "email": "cgonzales8@gmail.com",
+  "mensaje": "Pedido 34 generado",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:13:24.328Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af946ae1b57e23a27fc01b"
+  },
+  "email": "cgonzales8@gmail.com",
+  "mensaje": "Pedido 34 generado",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:27:38.093Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af9499e1b57e23a27fc01d"
+  },
+  "email": "cgonzales8@gmail.com",
+  "mensaje": "Pedido 34 generado",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:28:25.452Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af953ce1b57e23a27fc01f"
+  },
+  "email": "cgonzales87@gmail.com",
+  "mensaje": "Pedido 34 generado",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:31:08.224Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af968747118fd83835613e"
+  },
+  "email": "cgonzales87@gmail.com",
+  "mensaje": "Pedido 34 generado",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:36:39.945Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978747118fd838356140"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:55.527Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978847118fd838356142"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:56.824Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978947118fd838356144"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:57.825Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd838356146"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.073Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd838356148"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.266Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd83835614a"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.440Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd83835614c"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.619Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd83835614e"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.790Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978a47118fd838356150"
+  },
+  "email": "cgonzales9@gmail.com",
+  "mensaje": "pedido 405",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:40:58.944Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978c47118fd838356152"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:00.122Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978c47118fd838356154"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:00.526Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978c47118fd838356156"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:00.873Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978d47118fd838356158"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:01.566Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978d47118fd83835615a"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:01.793Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978d47118fd83835615c"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:01.976Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978e47118fd83835615e"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:02.174Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978e47118fd838356160"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:02.551Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978e47118fd838356162"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:02.762Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978f47118fd838356164"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:03.162Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978f47118fd838356166"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:03.562Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af978f47118fd838356168"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:03.737Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af979447118fd83835616a"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:08.327Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af979447118fd83835616c"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:08.513Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af979447118fd83835616e"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:08.694Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af979447118fd838356170"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:08.876Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68af979547118fd838356172"
+  },
+  "email": "cgonzales10@gmail.com",
+  "mensaje": "pidido100",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-27T23:41:09.010Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b3211421fd9ed4e7110b"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:40:01.066Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b4ef4f0dbbecd2c86e77"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "Pedido 1 generado",
+  "lectura": false,
+  "fecha_registro": "2025-05-16T06:44:22.074+00:00",
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6491421fd9ed4e7110d"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:29.006Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6491421fd9ed4e7110f"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:29.796Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6491421fd9ed4e71111"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:29.968Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b64a1421fd9ed4e71113"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:30.128Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b64a1421fd9ed4e71115"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:30.292Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b65b1421fd9ed4e71117"
+  },
+  "email": "cgonzales8@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:53:47.630Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b66a1421fd9ed4e71119"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:54:02.565Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b66b1421fd9ed4e7111b"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:54:03.140Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b66b1421fd9ed4e7111d"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:54:03.320Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6b91421fd9ed4e7111f"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:55:21.198Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6bc1421fd9ed4e71121"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:55:24.943Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6ca1421fd9ed4e71123"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:55:38.336Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6e51421fd9ed4e71125"
+  },
+  "email": "cgonzales11@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:56:05.774Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6e61421fd9ed4e71127"
+  },
+  "email": "cgonzales11@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:56:06.367Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b6ec1421fd9ed4e71129"
+  },
+  "email": "cgonzales11@gmail.com",
+  "mensaje": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:56:12.347Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b7691421fd9ed4e7112b"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "s",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T20:58:17.740Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b98964845328430b563b"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "s",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:21.465Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b98d64845328430b563f"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "s",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:25.316Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b98e64845328430b5641"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:26.665Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b98f64845328430b5643"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:27.155Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b98f64845328430b5645"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:27.351Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4b9a264845328430b5647"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:07:46.083Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4ba1064845328430b5649"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:09:36.859Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4ba1e64845328430b564b"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:09:50.938Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4ba2a64845328430b564d"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "FFFF",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:10:02.441Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4bb0101c2e87d89521115"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "ss",
+  "numero_pedido": "s111adsadasdsa",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:13:37.328Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4bce101c2e87d89521117"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "ssss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:21:37.867Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4bf3f01c2e87d89521119"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "ssss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:31:43.081Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4bf6501c2e87d8952111b"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "ssss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:32:21.818Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4bf7401c2e87d8952111d"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "ssss",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:32:36.036Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4c25fdc2a8546045e7c7d"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "sssdda",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:45:03.804Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4c5b0caa84616620cd6ed"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "PEDIDO 001 ",
+  "numero_pedido": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T21:59:12.411Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4caed54b05295b1f708ea"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "Pedido 002",
+  "numero_pedido": "2",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:21:33.873Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4cb4154b05295b1f708ed"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "pedido 2",
+  "numero_pedido": "2",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:22:57.532Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4cc7754b05295b1f708ef"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "mensaje 1",
+  "numero_pedido": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:28:07.214Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4cd7254b05295b1f708f1"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:32:18.962Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4ce6d4b6c7c7c17d34c6d"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:36:29.752Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4cf6ac70fa1b84365cb00"
+  },
+  "email": "kevinmk94@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:40:42.085Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d01ac70fa1b84365cb02"
+  },
+  "email": "kevinmk94@gmail.cpm",
+  "mensaje": "sadsadsa",
+  "numero_pedido": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:43:38.051Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d2363310965d16e620a6"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:52:38.307Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d392a1ba135d91d454eb"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T22:58:26.492Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d584ff20b6b610033964"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": true,
+  "fecha_registro": {
+    "$date": "2025-08-31T23:06:44.005Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d86ca8709939a1af4923"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": true,
+  "fecha_registro": {
+    "$date": "2025-08-31T23:19:08.921Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d8dea8709939a1af4926"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T23:21:02.733Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d98da8709939a1af4928"
+  },
+  "email": "a",
+  "mensaje": "a",
+  "numero_pedido": "1",
+  "lectura": false,
+  "fecha_registro": {
+    "$date": "2025-08-31T23:23:57.448Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4d99fa8709939a1af492a"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "1",
+  "lectura": true,
+  "fecha_registro": {
+    "$date": "2025-08-31T23:24:15.471Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4da5e075bf078bcf80dac"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "www",
+  "numero_pedido": "www",
+  "lectura": "Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:27:26.086Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4dcc643d9afcd05fb788e"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:37:42.279Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4dd51d11dabef1e904b5e"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:40:01.705Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4de23d11dabef1e904b61"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:43:31.027Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4df52d11dabef1e904b64"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "monto_total": 5,
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:48:34.840Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4dfc9d11dabef1e904b67"
+  },
+  "email": "a",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:50:33.936Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4dfd1d11dabef1e904b69"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:50:41.307Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e013d11dabef1e904b6d"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:51:47.717Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e0a2d11dabef1e904b70"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:54:10.552Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e110d11dabef1e904b72"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "sss",
+  "numero_pedido": "sss",
+  "nombre_cliente": "sss",
+  "fecha_pedido": {
+    "$date": "2025-08-05T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:56:00.040Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e17fd11dabef1e904b74"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "aaa",
+  "numero_pedido": "aaa",
+  "nombre_cliente": "aaa",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:57:51.509Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e1c4d11dabef1e904b76"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "aaa",
+  "numero_pedido": "aaa",
+  "nombre_cliente": "aaa",
+  "fecha_pedido": {
+    "$date": "2025-08-07T00:00:00.000Z"
+  },
+  "monto_total": 22222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-08-31T23:59:00.165Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e208d11dabef1e904b78"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-29T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:00:08.938Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e237d11dabef1e904b7a"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:00:55.687Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e273d11dabef1e904b7c"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:01:55.835Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e2e0d11dabef1e904b7e"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:03:44.497Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e300d11dabef1e904b80"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:16.348Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e301d11dabef1e904b82"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:17.947Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e306d11dabef1e904b84"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:22.696Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e30cd11dabef1e904b86"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:28.634Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e30cd11dabef1e904b88"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:28.807Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e30cd11dabef1e904b8a"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:28.945Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e31ad11dabef1e904b8c"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:42.247Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e325d11dabef1e904b8e"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:53.539Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e325d11dabef1e904b90"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:04:53.706Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e336d11dabef1e904b92"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-07T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:05:10.488Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e34ed11dabef1e904b94"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-06T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:05:34.761Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e396d11dabef1e904b96"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:06:46.594Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e397d11dabef1e904b98"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:06:47.941Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e398d11dabef1e904b9a"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:06:48.093Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e398d11dabef1e904b9c"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:06:48.246Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e398d11dabef1e904b9e"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:06:48.388Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e3dfd11dabef1e904ba0"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "monto_total": 222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:07:59.196Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e424d11dabef1e904ba2"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-31T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:09:08.299Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e438d11dabef1e904ba4"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-04T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:09:28.468Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e463d11dabef1e904ba6"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-07-09T00:00:00.000Z"
+  },
+  "monto_total": 8,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:10:11.586Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e49ed11dabef1e904ba8"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-04-16T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:11:10.529Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e4f8d11dabef1e904baa"
+  },
+  "email": "kevinmk942@gmail.com",
+  "mensaje": "aaa",
+  "numero_pedido": "aaa",
+  "nombre_cliente": "aa",
+  "fecha_pedido": {
+    "$date": "2025-08-07T00:00:00.000Z"
+  },
+  "monto_total": 22222,
+  "lectura": "No Leidos",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:12:40.031Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e6ced11dabef1e904bac"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "NOTIFICACION DEL PEDIDO 001",
+  "numero_pedido": "PEDIDO NRO 001",
+  "nombre_cliente": "JUAN PEREZ GARCIA",
+  "fecha_pedido": {
+    "$date": "2025-08-22T00:00:00.000Z"
+  },
+  "monto_total": 2000,
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:20:30.402Z"
+  },
+  "version": 0
+},
+{
+  "_id": {
+    "$oid": "68b4e965b41a878e96f41388"
+  },
+  "email": "kevinparejamamani@gmail.com",
+  "mensaje": "a",
+  "numero_pedido": "a",
+  "nombre_cliente": "a",
+  "fecha_pedido": {
+    "$date": "2025-08-07T00:00:00.000Z"
+  },
+  "monto_total": 2222,
+  "lectura": "Leido",
+  "fecha_registro": {
+    "$date": "2025-09-01T00:31:33.312Z"
+  },
+  "version": 0
+}]

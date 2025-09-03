@@ -1,0 +1,40 @@
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logística | SEGO</title><link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head><body>
+<header><h1><a href="/">SEGO</a></h1></header>
+<main>
+  <h2>Panel de Logística</h2>
+  <div id="feed"></div>
+</main>
+<script type="module">
+  import { socket } from '/js/socket.js';
+  const feed = document.getElementById('feed');
+  function card(p){
+    const div = document.createElement('div');
+    div.className='card';
+    div.innerHTML = \`
+      <h3>\${p.nroPedido}</h3>
+      <p>Cliente: \${p.cliente}</p>
+      <p>Fecha: \${new Date(p.fecha).toLocaleString()}</p>
+      <p class="price">Total: S/ \${p.montoTotal}</p>
+      <p>Estado notificación: <b id="st-\${p.id}">\${p.estadoNotificacion}</b></p>
+      <button data-id="\${p.id}">Marcar leído</button>
+    \`;
+    div.querySelector('button').addEventListener('click', ()=>{
+      socket.emit('logistica:pedido-leido', { ordenId: p.id, operador: 'logistica@sego.test' });
+    });
+    return div;
+  }
+  socket.on('logistica:nuevo-pedido', (p)=>{ feed.prepend(card(p)); });
+  socket.on('pedido-actualizado', (d)=>{
+    const el = document.getElementById('st-'+d.id);
+    if(el) el.textContent = d.estadoNotificacion;
+  });
+  socket.on('logistica:pedido-pagado', (d)=>{
+    const el = document.getElementById('st-'+d.id);
+    if(el){ const ok = document.createElement('div'); ok.className='notice'; ok.textContent='Pedido pagado: '+d.nroPedido; el.parentElement.appendChild(ok); }
+  });
+</script>
+</body></html>

@@ -1,0 +1,44 @@
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carrito | SEGO</title><link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head><body>
+<header><h1><a href="/">SEGO</a></h1><nav><a href="/logistica.html">Logística</a></nav></header>
+<main>
+  <h2>Tu carrito</h2>
+  <div id="cart"></div>
+  <button id="checkout">Generar pedido</button>
+  <div id="qr" style="display:none" class="card">
+    <h3>Escanea el QR para pagar</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=SEGO-PAGO" alt="QR">
+    <p><small>Simulación de QR</small></p>
+    <button id="pay">He pagado</button>
+  </div>
+</main>
+<script type="module">
+  import { fetchJSON, apiBase } from '/js/api.js';
+  import { socket, matricularSiLogin } from '/js/socket.js';
+  let lastOrder = null;
+  async function load(){
+    matricularSiLogin();
+    const c = await fetchJSON(`${apiBase}/carrito`);
+    const div=document.getElementById('cart');
+    if(!c.items || c.items.length===0){ div.innerHTML='<p>Carrito vacío</p>'; return; }
+    const sub=c.items.reduce((s,i)=> s+i.producto.precio*i.qty,0), igv=+(sub*0.18).toFixed(2), total=+(sub+igv).toFixed(2);
+    div.innerHTML='<ul>'+c.items.map(i=>`<li>${i.producto.nombre} x ${i.qty} — S/ ${i.producto.precio*i.qty}</li>`).join('')+'</ul>'+`<p>Subtotal: S/ ${sub} | IGV: S/ ${igv} | Total: S/ ${total}</p>`;
+  }
+  document.getElementById('checkout').addEventListener('click', async()=>{
+    const o = await fetchJSON(`${apiBase}/orden`, { method:'POST' });
+    lastOrder = o;
+    document.getElementById('qr').style.display='block';
+    alert('Pedido generado: '+o.nroPedido+' (estado notificación: '+o.estadoNotificacion+')');
+  });
+  document.getElementById('pay').addEventListener('click', async()=>{
+    if(!lastOrder) return alert('Genera primero un pedido');
+    const r = await fetchJSON(`${apiBase}/orden/${lastOrder._id}/pagar`, { method:'POST' });
+    alert('Pago registrado: '+r.orden.nroPedido);
+  });
+  socket.on('pago-confirmado', (d)=> alert('Confirmación recibida por socket: '+d.nroPedido));
+  await load();
+</script>
+</body></html>
